@@ -15,7 +15,6 @@ namespace SaveLoadApp
 
         }
 
-      //  private List<ProgramParams> listForSerializable = new List<ProgramParams>();
         XmlSerializer formatter = new XmlSerializer(typeof(List<ProgramParams>));
         public void Save()
         {
@@ -24,13 +23,11 @@ namespace SaveLoadApp
             foreach (var item in parametr.GetType().GetProperties())
             {
                 Console.WriteLine("{0} = {1}", item.Name, item.GetValue(parametr, null));
-                
-                //listForSerializable.Add(item);
             }
 
         }
 
-        public void Save1(List<ProgramParams> items)
+        public void SaveSerializable(List<ProgramParams> items)
         //newItemsClass = ProgramParams
         {
             using (FileStream fs = new FileStream("e:\\TEST.xml", FileMode.OpenOrCreate))

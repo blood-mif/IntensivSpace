@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntensivSpace", "IntensivSpace\IntensivSpace.csproj", "{28B2BFEE-4D54-4514-AB6D-5574B6780834}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveLoadApp", "SaveLoadApp\SaveLoadApp.csproj", "{8A57C464-237B-4196-B885-3DF3E570845F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaveLoadApp", "SaveLoadApp\SaveLoadApp.csproj", "{8A57C464-237B-4196-B885-3DF3E570845F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaveLoad", "SaveLoad\SaveLoad.csproj", "{A63F8C45-09A2-4FA1-81E5-1DF1764F4CFC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{8A57C464-237B-4196-B885-3DF3E570845F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A57C464-237B-4196-B885-3DF3E570845F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A57C464-237B-4196-B885-3DF3E570845F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A63F8C45-09A2-4FA1-81E5-1DF1764F4CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A63F8C45-09A2-4FA1-81E5-1DF1764F4CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A63F8C45-09A2-4FA1-81E5-1DF1764F4CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A63F8C45-09A2-4FA1-81E5-1DF1764F4CFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

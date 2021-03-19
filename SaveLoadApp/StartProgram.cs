@@ -6,15 +6,6 @@ namespace SaveLoadApp
 {
     class StartProgram
     {
-        public void madeList()
-        {
-            var par = new ProgramParams();
-            foreach (var item in par.GetType().GetProperties())
-            {
-                Console.WriteLine("{0} = {1}", item.Name, item.GetValue(par, null));
-
-            }
-        }
 
         public void Start()
         {
@@ -27,8 +18,7 @@ namespace SaveLoadApp
             List<ProgramParams> newListItems = new List<ProgramParams>();
 
 
-            par.Save1(madeList());
-            par.Load();
+            par.Save();
 
 
 
